@@ -4,26 +4,6 @@
         "text": "Test text"
     },
     {
-        "title": "sdfsdf",
-        "text": "fdgxfgxdfd",
-        "id": "47401552-e031-41fb-a6ef-0117c505e0a2"
-    },
-    {
-        "title": "Hello",
-        "text": "Note Taker",
-        "id": "ee8b7a5d-84c2-4d9f-9279-e91a847fce32"
-    },
-    {
-        "title": "asdasda",
-        "text": "asdasdasd",
-        "id": "519f5b6c-a2fd-41c6-93c9-1b8de85a0157"
-    },
-    {
-        "title": "Goodbye",
-        "text": "to no one",
-        "id": "a77598c1-e041-4b7d-8805-34bcae648311"
-    },
-    {
         "title": "asdasd",
         "text": "asdasdasdvcvsfdsf",
         "id": "96d09908-fbd3-4974-942d-13503ed0a3ce"
@@ -32,5 +12,10 @@
         "title": "Another test",
         "text": "is it good?",
         "id": "e296f1f1-a972-457c-91ed-dcb2fd46e7f1"
+    },
+    {
+        "title": "sdfsdf",
+        "text": "sdfsdfsdf",
+        "id": "42783649-999c-4aaa-a8a0-9671ca90f1c0"
     }
 ]
