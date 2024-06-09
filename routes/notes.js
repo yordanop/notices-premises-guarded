@@ -25,17 +25,16 @@ notes.delete('/:note_id', (req, res) => {
       });
   });
 
-  // POST Route for a new UX/UI tip
-tips.post('/', (req, res) => {
-    console.log(req.body);
+  // POST Route for a new note
+  notes.post('/', (req, res) => {
   
-    const { noteTitle, noteText } = req.body;
-  
+    const { title: title, text: text } = req.body;
+
     if (req.body) {
       const newNote = {
-        noteTitle,
-        noteText,
-        tip_id: uuidv4(),
+        title,
+        text,
+        note_id: uuidv4(),
       };
   
       readAndAppend(newNote, './db/db.json');
