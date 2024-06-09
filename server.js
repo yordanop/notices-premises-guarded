@@ -16,7 +16,7 @@ app.get('/notes', (req, res) =>
 
 // Wildcard
 app.get('*', (req, res) =>
-    res.sendFile(path.join(__dirname, '/public/pages/404.html'))
+    res.sendFile(path.join(__dirname, '/public/404.html'))
   );
 
   app.listen(PORT, () =>
