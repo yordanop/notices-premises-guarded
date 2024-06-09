@@ -4,18 +4,13 @@
         "text": "Test text"
     },
     {
-        "title": "asdasd",
-        "text": "asdasdasdvcvsfdsf",
-        "id": "96d09908-fbd3-4974-942d-13503ed0a3ce"
-    },
-    {
         "title": "Another test",
         "text": "is it good?",
         "id": "e296f1f1-a972-457c-91ed-dcb2fd46e7f1"
     },
     {
-        "title": "sdfsdf",
-        "text": "sdfsdfsdf",
-        "id": "42783649-999c-4aaa-a8a0-9671ca90f1c0"
+        "title": "Hello",
+        "text": "asdasd",
+        "id": "20e4335d-8cd9-4d3e-bf01-bc0f29fde15d"
     }
 ]
