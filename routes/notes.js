@@ -28,13 +28,13 @@ notes.delete('/:note_id', (req, res) => {
   // POST Route for a new note
   notes.post('/', (req, res) => {
   
-    const { title: title, text: text } = req.body;
+    const { title, text } = req.body;
 
     if (req.body) {
       const newNote = {
         title,
         text,
-        note_id: uuidv4(),
+        id: uuidv4(),
       };
   
       readAndAppend(newNote, './db/db.json');
